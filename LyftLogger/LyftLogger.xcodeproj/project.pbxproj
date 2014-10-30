@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A756FB251A003AB1003F9C65 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB241A003AB1003F9C65 /* main.m */; };
+		A756FB281A003AB1003F9C65 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB271A003AB1003F9C65 /* AppDelegate.m */; };
+		A756FB2E1A003AB1003F9C65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A756FB2C1A003AB1003F9C65 /* Main.storyboard */; };
+		A756FB301A003AB1003F9C65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A756FB2F1A003AB1003F9C65 /* Images.xcassets */; };
+		A756FB331A003AB1003F9C65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A756FB311A003AB1003F9C65 /* LaunchScreen.xib */; };
+		A756FB3F1A003AB1003F9C65 /* LyftLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB3E1A003AB1003F9C65 /* LyftLoggerTests.m */; };
+		A756FB4B1A003ADE003F9C65 /* LLTripTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB491A003ADE003F9C65 /* LLTripTableViewCell.m */; };
+		A756FB4C1A003ADE003F9C65 /* LLTripTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A756FB4A1A003ADE003F9C65 /* LLTripTableViewCell.xib */; };
+		A756FB4F1A003BD4003F9C65 /* car_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A756FB4E1A003BD4003F9C65 /* car_icon.png */; };
+		A756FB531A003CA7003F9C65 /* LLTripTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB511A003CA7003F9C65 /* LLTripTableViewController.m */; };
+		A756FB541A003CA7003F9C65 /* LLTripTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A756FB521A003CA7003F9C65 /* LLTripTableViewController.xib */; };
+		A756FB561A004338003F9C65 /* navbar.png in Resources */ = {isa = PBXBuildFile; fileRef = A756FB551A004338003F9C65 /* navbar.png */; };
+		A756FB581A0047E0003F9C65 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A756FB571A0047E0003F9C65 /* CoreLocation.framework */; };
+		A756FB5B1A0048F8003F9C65 /* LLTrip.m in Sources */ = {isa = PBXBuildFile; fileRef = A756FB5A1A0048F8003F9C65 /* LLTrip.m */; };
+		A7699C411A021DA600580893 /* README in Resources */ = {isa = PBXBuildFile; fileRef = A7699C3F1A021DA600580893 /* README */; };
+		A7699C421A021DA600580893 /* TemplateIcon2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7699C401A021DA600580893 /* TemplateIcon2x.png */; };
+		A7699C431A0221DB00580893 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A7699C3D1A020DA900580893 /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A756FB391A003AB1003F9C65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A756FB171A003AB1003F9C65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A756FB1E1A003AB1003F9C65;
+			remoteInfo = LyftLogger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A756FB1F1A003AB1003F9C65 /* LyftLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LyftLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A756FB231A003AB1003F9C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A756FB241A003AB1003F9C65 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A756FB261A003AB1003F9C65 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A756FB271A003AB1003F9C65 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A756FB2D1A003AB1003F9C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A756FB2F1A003AB1003F9C65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A756FB321A003AB1003F9C65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		A756FB381A003AB1003F9C65 /* LyftLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LyftLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A756FB3D1A003AB1003F9C65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A756FB3E1A003AB1003F9C65 /* LyftLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LyftLoggerTests.m; sourceTree = "<group>"; };
+		A756FB481A003ADE003F9C65 /* LLTripTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTripTableViewCell.h; sourceTree = "<group>"; };
+		A756FB491A003ADE003F9C65 /* LLTripTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTripTableViewCell.m; sourceTree = "<group>"; };
+		A756FB4A1A003ADE003F9C65 /* LLTripTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLTripTableViewCell.xib; sourceTree = "<group>"; };
+		A756FB4E1A003BD4003F9C65 /* car_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = car_icon.png; sourceTree = "<group>"; };
+		A756FB501A003CA7003F9C65 /* LLTripTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTripTableViewController.h; sourceTree = "<group>"; };
+		A756FB511A003CA7003F9C65 /* LLTripTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTripTableViewController.m; sourceTree = "<group>"; };
+		A756FB521A003CA7003F9C65 /* LLTripTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LLTripTableViewController.xib; sourceTree = "<group>"; };
+		A756FB551A004338003F9C65 /* navbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navbar.png; sourceTree = "<group>"; };
+		A756FB571A0047E0003F9C65 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A756FB591A0048F8003F9C65 /* LLTrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLTrip.h; sourceTree = "<group>"; };
+		A756FB5A1A0048F8003F9C65 /* LLTrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLTrip.m; sourceTree = "<group>"; };
+		A7699C3D1A020DA900580893 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		A7699C3F1A021DA600580893 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		A7699C401A021DA600580893 /* TemplateIcon2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon2x.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A756FB1C1A003AB1003F9C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7699C431A0221DB00580893 /* AddressBookUI.framework in Frameworks */,
+				A756FB581A0047E0003F9C65 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A756FB351A003AB1003F9C65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A756FB161A003AB1003F9C65 = {
+			isa = PBXGroup;
+			children = (
+				A7699C3D1A020DA900580893 /* AddressBookUI.framework */,
+				A756FB571A0047E0003F9C65 /* CoreLocation.framework */,
+				A756FB211A003AB1003F9C65 /* LyftLogger */,
+				A756FB3B1A003AB1003F9C65 /* LyftLoggerTests */,
+				A756FB201A003AB1003F9C65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A756FB201A003AB1003F9C65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB1F1A003AB1003F9C65 /* LyftLogger.app */,
+				A756FB381A003AB1003F9C65 /* LyftLoggerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A756FB211A003AB1003F9C65 /* LyftLogger */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB481A003ADE003F9C65 /* LLTripTableViewCell.h */,
+				A756FB491A003ADE003F9C65 /* LLTripTableViewCell.m */,
+				A756FB4A1A003ADE003F9C65 /* LLTripTableViewCell.xib */,
+				A756FB501A003CA7003F9C65 /* LLTripTableViewController.h */,
+				A756FB511A003CA7003F9C65 /* LLTripTableViewController.m */,
+				A756FB521A003CA7003F9C65 /* LLTripTableViewController.xib */,
+				A756FB591A0048F8003F9C65 /* LLTrip.h */,
+				A756FB5A1A0048F8003F9C65 /* LLTrip.m */,
+				A756FB4D1A003BC2003F9C65 /* assets */,
+				A756FB261A003AB1003F9C65 /* AppDelegate.h */,
+				A756FB271A003AB1003F9C65 /* AppDelegate.m */,
+				A756FB2C1A003AB1003F9C65 /* Main.storyboard */,
+				A756FB2F1A003AB1003F9C65 /* Images.xcassets */,
+				A756FB311A003AB1003F9C65 /* LaunchScreen.xib */,
+				A756FB221A003AB1003F9C65 /* Supporting Files */,
+				A7699C3F1A021DA600580893 /* README */,
+				A7699C401A021DA600580893 /* TemplateIcon2x.png */,
+			);
+			path = LyftLogger;
+			sourceTree = "<group>";
+		};
+		A756FB221A003AB1003F9C65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB231A003AB1003F9C65 /* Info.plist */,
+				A756FB241A003AB1003F9C65 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A756FB3B1A003AB1003F9C65 /* LyftLoggerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB3E1A003AB1003F9C65 /* LyftLoggerTests.m */,
+				A756FB3C1A003AB1003F9C65 /* Supporting Files */,
+			);
+			path = LyftLoggerTests;
+			sourceTree = "<group>";
+		};
+		A756FB3C1A003AB1003F9C65 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB3D1A003AB1003F9C65 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A756FB4D1A003BC2003F9C65 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				A756FB551A004338003F9C65 /* navbar.png */,
+				A756FB4E1A003BD4003F9C65 /* car_icon.png */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A756FB1E1A003AB1003F9C65 /* LyftLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A756FB421A003AB1003F9C65 /* Build configuration list for PBXNativeTarget "LyftLogger" */;
+			buildPhases = (
+				A756FB1B1A003AB1003F9C65 /* Sources */,
+				A756FB1C1A003AB1003F9C65 /* Frameworks */,
+				A756FB1D1A003AB1003F9C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LyftLogger;
+			productName = LyftLogger;
+			productReference = A756FB1F1A003AB1003F9C65 /* LyftLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A756FB371A003AB1003F9C65 /* LyftLoggerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A756FB451A003AB1003F9C65 /* Build configuration list for PBXNativeTarget "LyftLoggerTests" */;
+			buildPhases = (
+				A756FB341A003AB1003F9C65 /* Sources */,
+				A756FB351A003AB1003F9C65 /* Frameworks */,
+				A756FB361A003AB1003F9C65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A756FB3A1A003AB1003F9C65 /* PBXTargetDependency */,
+			);
+			name = LyftLoggerTests;
+			productName = LyftLoggerTests;
+			productReference = A756FB381A003AB1003F9C65 /* LyftLoggerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A756FB171A003AB1003F9C65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Shikha R Nalla";
+				TargetAttributes = {
+					A756FB1E1A003AB1003F9C65 = {
+						CreatedOnToolsVersion = 6.0;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+					A756FB371A003AB1003F9C65 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = A756FB1E1A003AB1003F9C65;
+					};
+				};
+			};
+			buildConfigurationList = A756FB1A1A003AB1003F9C65 /* Build configuration list for PBXProject "LyftLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A756FB161A003AB1003F9C65;
+			productRefGroup = A756FB201A003AB1003F9C65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A756FB1E1A003AB1003F9C65 /* LyftLogger */,
+				A756FB371A003AB1003F9C65 /* LyftLoggerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A756FB1D1A003AB1003F9C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A756FB2E1A003AB1003F9C65 /* Main.storyboard in Resources */,
+				A756FB331A003AB1003F9C65 /* LaunchScreen.xib in Resources */,
+				A756FB4C1A003ADE003F9C65 /* LLTripTableViewCell.xib in Resources */,
+				A756FB301A003AB1003F9C65 /* Images.xcassets in Resources */,
+				A7699C411A021DA600580893 /* README in Resources */,
+				A7699C421A021DA600580893 /* TemplateIcon2x.png in Resources */,
+				A756FB541A003CA7003F9C65 /* LLTripTableViewController.xib in Resources */,
+				A756FB561A004338003F9C65 /* navbar.png in Resources */,
+				A756FB4F1A003BD4003F9C65 /* car_icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A756FB361A003AB1003F9C65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A756FB1B1A003AB1003F9C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A756FB281A003AB1003F9C65 /* AppDelegate.m in Sources */,
+				A756FB4B1A003ADE003F9C65 /* LLTripTableViewCell.m in Sources */,
+				A756FB5B1A0048F8003F9C65 /* LLTrip.m in Sources */,
+				A756FB531A003CA7003F9C65 /* LLTripTableViewController.m in Sources */,
+				A756FB251A003AB1003F9C65 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A756FB341A003AB1003F9C65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A756FB3F1A003AB1003F9C65 /* LyftLoggerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A756FB3A1A003AB1003F9C65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A756FB1E1A003AB1003F9C65 /* LyftLogger */;
+			targetProxy = A756FB391A003AB1003F9C65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A756FB2C1A003AB1003F9C65 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A756FB2D1A003AB1003F9C65 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A756FB311A003AB1003F9C65 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A756FB321A003AB1003F9C65 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A756FB401A003AB1003F9C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A756FB411A003AB1003F9C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A756FB431A003AB1003F9C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyftLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A756FB441A003AB1003F9C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LyftLogger/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A756FB461A003AB1003F9C65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyftLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyftLogger.app/LyftLogger";
+			};
+			name = Debug;
+		};
+		A756FB471A003AB1003F9C65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LyftLoggerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LyftLogger.app/LyftLogger";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A756FB1A1A003AB1003F9C65 /* Build configuration list for PBXProject "LyftLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A756FB401A003AB1003F9C65 /* Debug */,
+				A756FB411A003AB1003F9C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A756FB421A003AB1003F9C65 /* Build configuration list for PBXNativeTarget "LyftLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A756FB431A003AB1003F9C65 /* Debug */,
+				A756FB441A003AB1003F9C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A756FB451A003AB1003F9C65 /* Build configuration list for PBXNativeTarget "LyftLoggerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A756FB461A003AB1003F9C65 /* Debug */,
+				A756FB471A003AB1003F9C65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A756FB171A003AB1003F9C65 /* Project object */;
+}
